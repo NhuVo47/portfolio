@@ -3,48 +3,55 @@
 
 <head>
 <meta charset="UTF-8">
-<title>Portfolio</title>
+<title>Vo Ngoc Huynh Nhu Portfolio</title>
 
 <style>
 
 body{
-font-family: Arial;
-background:#f5f5f5;
+font-family: Helvetica, Arial, sans-serif;
+margin:0;
+background:#ffffff;
 }
 
 .container{
-width:1000px;
+width:980px;
 margin:auto;
-display:flex;
 margin-top:40px;
+display:flex;
 }
 
 .left{
 width:35%;
-background:white;
-padding:30px;
-text-align:center;
+padding:20px;
 }
 
 .left img{
-width:200px;
-border-radius:50%;
+width:220px;
+border-radius:6px;
 }
 
 .right{
 width:65%;
-background:white;
-padding:40px;
-margin-left:20px;
+padding:20px;
+}
+
+h1{
+margin-bottom:5px;
 }
 
 h2{
-border-bottom:2px solid #ddd;
+margin-top:30px;
+border-bottom:1px solid #ddd;
 padding-bottom:5px;
 }
 
 .project{
-margin-bottom:25px;
+margin-bottom:20px;
+}
+
+a{
+text-decoration:none;
+color:#0366d6;
 }
 
 </style>
@@ -61,8 +68,12 @@ margin-bottom:25px;
 
 <img src="images/hinh.png">
 
-<h2>Vo Ngoc Huynh Nhu</h2>
+<h1>Vo Ngoc Huynh Nhu</h1>
 
+<p>
+Information Technology Student<br>
+Saigon University
+</p>
 
 <p>
 <a href="pdf/resume.pdf">Resume</a> |
@@ -70,36 +81,43 @@ margin-bottom:25px;
 </p>
 
 <p>
-Hello! My name is Vo Ngoc Huynh Nhu.  
-I am an Information Technology student at Saigon University.
+Hello! My name is Vo Ngoc Huynh Nhu.
+I am currently an Information Technology student at Saigon University.
 
 I am interested in backend development and software architecture.
-
-I have experience building backend services using ASP.NET Core,
+I have experience building backend systems using ASP.NET Core,
 applying Clean Architecture and Minimal API to create RESTful services.
 </p>
 
 </div>
 
+
 <!-- RIGHT SIDE -->
 
 <div class="right">
 
-<h2>Completed Projects</h2>
+<h2>Projects</h2>
 
 <div class="project">
 <b>Restaurant Backend System</b>
-<p>Backend service built using ASP.NET Core Minimal API and Clean Architecture.</p>
+<p>
+Backend service built using ASP.NET Core Minimal API with Clean Architecture.
+Includes RESTful APIs and SQL Server database integration.
+</p>
 </div>
 
 <div class="project">
 <b>TakeNote – Expense Management App</b>
-<p>Android application developed using Java to manage personal finances.</p>
+<p>
+Android application developed using Java to help users manage income and expenses.
+</p>
 </div>
 
 <div class="project">
 <b>Weather Forecast Application</b>
-<p>Android application that displays real-time weather information.</p>
+<p>
+Android application that displays real-time weather information using weather APIs.
+</p>
 </div>
 
 
@@ -107,12 +125,16 @@ applying Clean Architecture and Minimal API to create RESTful services.
 
 <div class="project">
 <b>Microservices Restaurant System</b>
-<p>Upgrade backend architecture to Microservices.</p>
+<p>
+Upgrade the restaurant backend system to a Microservices architecture using ASP.NET Core.
+</p>
 </div>
 
 <div class="project">
-<b>Personal Finance App (Flutter)</b>
-<p>Cross-platform finance management mobile application.</p>
+<b>Personal Finance Mobile App</b>
+<p>
+Cross-platform finance management application developed using Flutter.
+</p>
 </div>
 
 </div>
