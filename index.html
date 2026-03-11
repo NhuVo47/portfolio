@@ -53,6 +53,19 @@ a{
 text-decoration:none;
 color:#0366d6;
 }
+.btn{
+display:inline-block;
+padding:8px 14px;
+background:#0366d6;
+color:white;
+border-radius:5px;
+text-decoration:none;
+font-size:14px;
+}
+
+.btn:hover{
+background:#024ea2;
+}
 
 </style>
 
@@ -80,8 +93,8 @@ color:#0366d6;
 <p>
 I am an Information Technology student at Saigon University. I am interested in backend development and software architecture.
 <br></br>
-I have experience building backend systems using ASP.NET Core,
-applying Clean Architecture and Minimal API to create RESTful services.
+<!-- I have experience building backend systems using ASP.NET Core,
+applying Clean Architecture and Minimal API to create RESTful services. -->
 </p>
 
 </div>
@@ -99,12 +112,34 @@ applying Clean Architecture and Minimal API to create RESTful services.
 Android application that displays real-time weather information using weather APIs.
 </p>
   <br>
-<button > <a href="https://github.com/NhuVo47/WeatherApp">View on GitHub</a> </button>
+<a href="https://github.com/NhuVo47/WeatherApp" class="btn">View on GitHub</a>
 </div>
 
 
 <h2>Upcoming Projects</h2>
 
+<div class="project">
+
+<b>Smart Food Tour – Vinh Khanh Street</b>
+
+<p>
+A smart tourism application that introduces the famous street foods of 
+Vinh Khanh Street in Ho Chi Minh City. The system detects the user's 
+location and automatically plays audio narration about nearby dishes.
+</p>
+
+<p>
+Users can also scan QR codes at food stalls to view more information. 
+The application supports multiple languages to help international 
+tourists explore Vietnamese street food culture.
+</p>
+
+<p>
+Technologies: Web/Mobile App, GPS Location, QR Code, Text-to-Speech
+</p>
+
+</div>
+  
 <div class="project">
 <b>Restaurant Backend System</b>
 <p>
@@ -113,12 +148,6 @@ Includes RESTful APIs and SQL Server database integration.
 </p>
 </div>
 
-<div class="project">
-<b>Personal Finance Mobile App</b>
-<p>
-Cross-platform finance management application developed using Flutter.
-</p>
-</div>
 
 </div>
 
